@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-07T01:32:13Z" name="Default suite" finished-at="2020-02-07T01:33:24Z" duration-ms="70736">
+    <groups>
+    </groups>
+    <test started-at="2020-02-07T01:32:13Z" name="Default test" finished-at="2020-02-07T01:33:24Z" duration-ms="70736">
+      <class name="com.rubyonrails.qa.test.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:32:13Z" name="setUp" finished-at="2020-02-07T01:32:36Z" duration-ms="22646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTitleTest()[pri:1, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:32:37Z" name="validateTitleTest" finished-at="2020-02-07T01:32:38Z" duration-ms="1589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleTest -->
+        <test-method signature="logoDisplayTest()[pri:2, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:32:38Z" name="logoDisplayTest" finished-at="2020-02-07T01:32:39Z" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoDisplayTest -->
+        <test-method signature="clickOnLinkEverythingTest()[pri:3, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:32:39Z" name="clickOnLinkEverythingTest" finished-at="2020-02-07T01:32:43Z" duration-ms="3493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLinkEverythingTest -->
+        <test-method signature="clickOnLinkLearnTest()[pri:4, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:32:43Z" name="clickOnLinkLearnTest" finished-at="2020-02-07T01:32:53Z" duration-ms="9878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLinkLearnTest -->
+        <test-method signature="clickOnVersionTest()[pri:5, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:32:53Z" name="clickOnVersionTest" finished-at="2020-02-07T01:32:55Z" duration-ms="2588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnVersionTest -->
+        <test-method signature="baseCampTest()[pri:6, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:32:55Z" name="baseCampTest" finished-at="2020-02-07T01:33:08Z" duration-ms="12693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseCampTest -->
+        <test-method signature="linkTwitter()[pri:7, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:33:08Z" name="linkTwitter" finished-at="2020-02-07T01:33:11Z" duration-ms="2794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTwitter -->
+        <test-method signature="weekInRails()[pri:8, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:33:11Z" name="weekInRails" finished-at="2020-02-07T01:33:16Z" duration-ms="5302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weekInRails -->
+        <test-method signature="footerConductlinkTest()[pri:9, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:33:16Z" name="footerConductlinkTest" finished-at="2020-02-07T01:33:18Z" duration-ms="1711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerConductlinkTest -->
+        <test-method signature="footerLicenseLinkText()[pri:10, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:33:18Z" name="footerLicenseLinkText" finished-at="2020-02-07T01:33:22Z" duration-ms="4547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerLicenseLinkText -->
+        <test-method signature="footerLogoTest()[pri:11, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:33:22Z" name="footerLogoTest" finished-at="2020-02-07T01:33:22Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rubyonrails.qa.test.HomePageTest@4009e306]" started-at="2020-02-07T01:33:22Z" name="tearDown" finished-at="2020-02-07T01:33:24Z" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rubyonrails.qa.test.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
