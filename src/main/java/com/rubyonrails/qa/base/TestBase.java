@@ -1,6 +1,7 @@
 package com.rubyonrails.qa.base;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -11,6 +12,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import com.rubyonrails.qa.util.TestUtil;
+
+
 
 /**
  * 
@@ -23,12 +26,17 @@ public class TestBase {
 	public static Properties prop;
 
 	
-	public TestBase() throws IOException {
-		prop = new Properties();
+	public TestBase()  {
+	try {	prop = new Properties();
 		FileInputStream fis = new FileInputStream(
 				System.getProperty("user.dir") + "\\src\\main\\java\\com\\rubyonrails\\qa\\config\\config.properties");
 		prop.load(fis);
 
+	}catch(FileNotFoundException e) {
+		e.printStackTrace();
+	}catch(IOException e) {
+		e.printStackTrace();
+	}
 	}
 
 	/**
@@ -59,8 +67,7 @@ public class TestBase {
 
 		driver.manage().window().maximize(); // Maximize the window
 		driver.get(url);
-		// driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT,
-		// TimeUnit.SECONDS); // wait till the page is completely loaded
+		 driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS); // wait till the page is completely loaded
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS); // implicit wait
 
 	}

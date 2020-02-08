@@ -1,6 +1,6 @@
 package com.rubyonrails.qa.test;
 
-import java.io.IOException;
+
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -10,21 +10,24 @@ import org.testng.annotations.Test;
 
 import com.rubyonrails.qa.base.TestBase;
 import com.rubyonrails.qa.pages.HomePage;
+import com.rubyonrails.qa.util.TestUtil;
 
 import junit.framework.Assert;
 
 public class HomePageTest extends TestBase{
 
 	HomePage homepage;
-	public HomePageTest() throws IOException {
+	TestUtil testutil;
+	public HomePageTest() {
 		super();
 		
 	}
 
 	@BeforeClass
-	public void setUp() throws Exception {
+	public void setUp() throws Exception{
 		browserInitialization();
 		homepage = new HomePage();
+		testutil =new TestUtil();
 	}
 	
 	@Test(priority=1)
@@ -54,22 +57,22 @@ public class HomePageTest extends TestBase{
 	@Test(priority=5)
 	public void clickOnVersionTest() {
 		homepage.clickOnVersion();
-		driver.navigate().back();
+		testutil.navigateBack();
 	}
 	@Test(priority=6)
 	public void baseCampTest() {
 		homepage.linkBasecamp();
-		driver.navigate().back();
+		testutil.navigateBack();
 	}
 	@Test(priority=7)
 	public void linkTwitter() {
 		homepage.railsOnTwitter();
-		driver.navigate().back();
+		testutil.navigateBack();
 	}
 	@Test(priority=8)
 	public void weekInRails() {
 		homepage.weekInRails();
-		driver.navigate().back();
+		testutil.navigateBack();
 	}
 	@Test(priority=9)
 	public void footerConductlinkTest() {
@@ -80,7 +83,7 @@ public class HomePageTest extends TestBase{
 	@Test(priority=10)
 	public void footerLicenseLinkText() {
 		homepage.footerLicense();
-		driver.navigate().back();
+		testutil.navigateBack();
 	}
 	@Test(priority=11)
 	public void footerLogoTest() {

@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rubyonrails.qa.test.HomePageTest">
+      <class name="com.rubyonrails.qa.test.BlogsPageTest">
         <methods>
           <include name="setUp"/>
-          <include name="playVideoTest"/>
+          <include name="displayTableContentsTest"/>
+          <include name="clickOnActionTest"/>
         </methods>
-      </class> <!-- com.rubyonrails.qa.test.HomePageTest -->
+      </class> <!-- com.rubyonrails.qa.test.BlogsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

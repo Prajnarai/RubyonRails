@@ -1,6 +1,6 @@
 package com.rubyonrails.qa.pages;
 
-import java.io.IOException;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -55,7 +55,7 @@ public class HomePage extends TestBase{
 	
 	//Initializing Page factory 
 	
-	public HomePage() throws IOException{		
+	public HomePage() {		
 			PageFactory.initElements(driver, this);
 		}
 		
