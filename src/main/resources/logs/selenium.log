@@ -1,0 +1,423 @@
+2020-02-09 14:13:40 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 14:13:48 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 14:13:51 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 14:13:51 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 14:13:51 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 14:15:43 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 14:15:50 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 14:15:52 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 14:15:52 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 14:15:52 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 14:16:20 INFO  HomePageTest:43 - Opening the browser and accessing the URL
+2020-02-09 14:16:28 INFO  HomePageTest:57 - Checking if the links are working fine
+2020-02-09 14:16:40 INFO  HomePageTest:66 - Validating the home page Title
+2020-02-09 14:16:40 INFO  HomePageTest:68 - title of the home page: Ruby on Rails | A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
+2020-02-09 14:16:40 INFO  HomePageTest:78 - Checking if the home page logo is displayed
+2020-02-09 14:16:40 INFO  HomePageTest:88 - Checking if the Footer logo of home page is displayed
+2020-02-09 14:16:40 INFO  HomePageTest:98 - Closing the browser
+2020-02-09 14:36:18 INFO  HomePageTest:43 - Opening the browser and accessing the URL
+2020-02-09 14:36:33 INFO  HomePageTest:57 - Checking if the links are working fine
+2020-02-09 14:36:34 INFO  BrokenLinkUtil:28 - Total links are 28
+2020-02-09 14:36:57 INFO  HomePageTest:66 - Validating the home page Title
+2020-02-09 14:36:57 INFO  HomePageTest:68 - title of the home page: Ruby on Rails | A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
+2020-02-09 14:36:57 INFO  HomePageTest:78 - Checking if the home page logo is displayed
+2020-02-09 14:36:57 INFO  HomePageTest:88 - Checking if the Footer logo of home page is displayed
+2020-02-09 14:36:57 INFO  HomePageTest:98 - Closing the browser
+2020-02-09 14:39:19 INFO  APIpagesTest:27 - Opening Browser
+2020-02-09 14:39:29 INFO  APIpagesTest:38 - Clicking on API menu
+2020-02-09 14:39:31 INFO  APIpagesTest:46 - Checking for Active and broken links
+2020-02-09 14:39:31 INFO  BrokenLinkUtil:28 - Total links are 25
+2020-02-09 14:39:38 INFO  APIpagesTest:57 - Clicking on Action Controller
+2020-02-09 14:39:38 INFO  APIpagesTest:68 - Clicking on Abstarct Controller
+2020-02-09 14:39:39 INFO  APIpagesTest:80 - Click on Search 
+2020-02-09 14:39:40 INFO  APIpagesTest:91 - Closing the browser
+2020-02-09 14:50:28 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 14:50:35 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 14:50:47 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 14:50:47 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 14:50:47 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 14:51:54 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 14:52:02 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 14:52:05 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 14:52:05 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 14:52:05 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 14:59:00 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 14:59:07 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 14:59:09 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 14:59:09 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 14:59:09 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 15:01:13 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 15:01:20 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 15:01:23 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 15:01:23 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 15:01:23 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 15:04:22 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 15:04:28 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 15:04:30 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 15:04:30 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 15:04:30 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 15:08:01 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 15:08:09 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 15:08:11 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 15:08:11 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 15:08:11 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 15:10:10 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 15:10:17 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 15:10:20 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 15:10:20 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 15:10:20 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 15:11:57 INFO  HomePageTest:43 - Opening the browser and accessing the URL
+2020-02-09 15:12:04 INFO  HomePageTest:57 - Checking if the links are working fine
+2020-02-09 15:12:04 INFO  BrokenLinkUtil:28 - Total links are 28
+2020-02-09 15:12:16 INFO  HomePageTest:66 - Validating the home page Title
+2020-02-09 15:12:16 INFO  HomePageTest:68 - title of the home page: Ruby on Rails | A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
+2020-02-09 15:12:16 INFO  HomePageTest:78 - Checking if the home page logo is displayed
+2020-02-09 15:12:16 INFO  HomePageTest:88 - Checking if the Footer logo of home page is displayed
+2020-02-09 15:12:16 INFO  HomePageTest:98 - Closing the browser
+2020-02-09 15:22:43 INFO  HomePageTest:43 - Opening the browser and accessing the URL
+2020-02-09 15:22:51 INFO  HomePageTest:57 - Checking if the links are working fine
+2020-02-09 15:22:51 INFO  BrokenLinkUtil:28 - Total links are 28
+2020-02-09 15:23:02 INFO  HomePageTest:66 - Validating the home page Title
+2020-02-09 15:23:02 INFO  HomePageTest:68 - title of the home page: Ruby on Rails | A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
+2020-02-09 15:23:02 INFO  HomePageTest:78 - Checking if the home page logo is displayed
+2020-02-09 15:23:02 INFO  HomePageTest:88 - Checking if the Footer logo of home page is displayed
+2020-02-09 15:23:02 INFO  HomePageTest:98 - Closing the browser
+2020-02-09 15:23:04 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 15:23:09 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 15:23:11 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 15:23:11 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 15:23:11 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 15:23:13 INFO  APIpagesTest:27 - Opening Browser
+2020-02-09 15:23:18 INFO  APIpagesTest:38 - Clicking on API menu
+2020-02-09 15:23:21 INFO  APIpagesTest:46 - Checking for Active and broken links
+2020-02-09 15:23:21 INFO  BrokenLinkUtil:28 - Total links are 25
+2020-02-09 15:23:28 INFO  APIpagesTest:57 - Clicking on Action Controller
+2020-02-09 15:23:29 INFO  APIpagesTest:68 - Clicking on Abstarct Controller
+2020-02-09 15:23:29 INFO  APIpagesTest:80 - Click on Search 
+2020-02-09 15:23:31 INFO  APIpagesTest:91 - Closing the browser
+2020-02-09 15:23:38 INFO  GuidePageTest:43 - Clicking on Guides
+2020-02-09 15:23:40 INFO  GuidePageTest:46 - Validating the title of the page
+2020-02-09 15:23:40 INFO  GuidePageTest:48 - Title of the page is :Ruby on Rails Guides
+2020-02-09 15:23:40 INFO  GuidePageTest:57 - Validatng the Footer Text
+2020-02-09 15:23:40 INFO  GuidePageTest:60 - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License
+2020-02-09 15:23:40 INFO  GuidePageTest:61 - "Rails", "Ruby on Rails", and the Rails logo are trademarks of David Heinemeier Hansson. All rights reserved.
+2020-02-09 15:23:40 INFO  GuidePageTest:71 - Checking if the links are working fine
+2020-02-09 15:23:40 INFO  BrokenLinkUtil:28 - Total links are 133
+2020-02-09 15:24:20 INFO  GuidePageTest:78 - clicking OnGuidesIndex
+2020-02-09 15:24:20 INFO  GuidePageTest:91 - Closing the browser
+2020-02-09 15:24:22 INFO  BlogsPageTest:35 - Initializing the browser
+2020-02-09 15:24:22 INFO  BlogsPageTest:36 - Opening the URL
+2020-02-09 15:24:27 INFO  BlogsPageTest:59 - Clicking on the Blog
+2020-02-09 15:24:28 INFO  BlogsPageTest:62 - Title of blog pageRiding Rails
+2020-02-09 15:24:28 INFO  BlogsPageTest:49 - Checking the links
+2020-02-09 15:24:28 INFO  BrokenLinkUtil:28 - Total links are 144
+2020-02-09 15:25:58 INFO  BlogsPageTest:71 - Clicking on 18 ContributorsToRailsTest 
+2020-02-09 15:25:59 INFO  BlogsPageTest:80 - Clicking on this week from the table
+2020-02-09 15:25:59 INFO  BlogsPageTest:90 - ==========Title of the table=====
+2020-02-09 15:25:59 INFO  BlogsPageTest:92 - Title of Contribute page: Rails Contributors - Date Range
+2020-02-09 15:26:00 INFO  BlogsPageTest:112 - No of Rows: 21
+2020-02-09 15:26:00 INFO  BlogsPageTest:113 - No of Rows: 4
+2020-02-09 15:26:00 INFO  BlogsPageTest:114 - Displaying the table data
+2020-02-09 15:26:05 INFO  BlogsPageTest:138 - verifying the 1st row data
+2020-02-09 15:26:05 INFO  BlogsPageTest:145 - verifying the 2nd row data
+2020-02-09 15:26:05 INFO  BlogsPageTest:152 - verifying the 3rd row data
+2020-02-09 15:26:05 INFO  BlogsPageTest:159 - verifying the 4th row data
+2020-02-09 15:26:05 INFO  BlogsPageTest:170 - Closing the browser
+2020-02-09 15:28:25 INFO  HomePageTest:43 - Opening the browser and accessing the URL
+2020-02-09 15:28:35 INFO  HomePageTest:57 - Checking if the links are working fine
+2020-02-09 15:28:35 INFO  BrokenLinkUtil:28 - Total links are 28
+2020-02-09 15:28:47 INFO  HomePageTest:66 - Validating the home page Title
+2020-02-09 15:28:47 INFO  HomePageTest:68 - title of the home page: Ruby on Rails | A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
+2020-02-09 15:28:47 INFO  HomePageTest:78 - Checking if the home page logo is displayed
+2020-02-09 15:28:47 INFO  HomePageTest:88 - Checking if the Footer logo of home page is displayed
+2020-02-09 15:28:47 INFO  HomePageTest:98 - Closing the browser
+2020-02-09 15:28:48 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 15:28:55 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 15:28:58 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 15:28:58 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 15:28:58 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 15:29:00 INFO  APIpagesTest:27 - Opening Browser
+2020-02-09 15:29:07 INFO  APIpagesTest:38 - Clicking on API menu
+2020-02-09 15:29:09 INFO  APIpagesTest:46 - Checking for Active and broken links
+2020-02-09 15:29:09 INFO  BrokenLinkUtil:28 - Total links are 25
+2020-02-09 15:29:16 INFO  APIpagesTest:57 - Clicking on Action Controller
+2020-02-09 15:29:16 INFO  APIpagesTest:68 - Clicking on Abstarct Controller
+2020-02-09 15:29:17 INFO  APIpagesTest:80 - Click on Search 
+2020-02-09 15:29:18 INFO  APIpagesTest:91 - Closing the browser
+2020-02-09 15:29:27 INFO  GuidePageTest:43 - Clicking on Guides
+2020-02-09 15:29:28 INFO  GuidePageTest:46 - Validating the title of the page
+2020-02-09 15:29:28 INFO  GuidePageTest:48 - Title of the page is :Ruby on Rails Guides
+2020-02-09 15:29:28 INFO  GuidePageTest:57 - Validatng the Footer Text
+2020-02-09 15:29:29 INFO  GuidePageTest:60 - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License
+2020-02-09 15:29:29 INFO  GuidePageTest:61 - "Rails", "Ruby on Rails", and the Rails logo are trademarks of David Heinemeier Hansson. All rights reserved.
+2020-02-09 15:29:29 INFO  GuidePageTest:71 - Checking if the links are working fine
+2020-02-09 15:29:29 INFO  BrokenLinkUtil:28 - Total links are 133
+2020-02-09 15:30:08 INFO  GuidePageTest:78 - clicking OnGuidesIndex
+2020-02-09 15:30:08 INFO  GuidePageTest:91 - Closing the browser
+2020-02-09 15:30:10 INFO  BlogsPageTest:35 - Initializing the browser
+2020-02-09 15:30:10 INFO  BlogsPageTest:36 - Opening the URL
+2020-02-09 15:30:17 INFO  BlogsPageTest:59 - Clicking on the Blog
+2020-02-09 15:30:20 INFO  BlogsPageTest:62 - Title of blog pageRiding Rails
+2020-02-09 15:30:20 INFO  BlogsPageTest:49 - Checking the links
+2020-02-09 15:30:20 INFO  BrokenLinkUtil:28 - Total links are 144
+2020-02-09 15:31:51 INFO  BlogsPageTest:71 - Clicking on 18 ContributorsToRailsTest 
+2020-02-09 15:31:52 INFO  BlogsPageTest:80 - Clicking on this week from the table
+2020-02-09 15:31:52 INFO  BlogsPageTest:90 - ==========Title of the table=====
+2020-02-09 15:31:52 INFO  BlogsPageTest:92 - Title of Contribute page: Rails Contributors - Date Range
+2020-02-09 15:31:53 INFO  BlogsPageTest:112 - No of Rows: 21
+2020-02-09 15:31:53 INFO  BlogsPageTest:113 - No of Rows: 4
+2020-02-09 15:31:53 INFO  BlogsPageTest:114 - Displaying the table data
+2020-02-09 15:32:06 INFO  BlogsPageTest:138 - verifying the 1st row data
+2020-02-09 15:32:06 INFO  BlogsPageTest:145 - verifying the 2nd row data
+2020-02-09 15:32:06 INFO  BlogsPageTest:152 - verifying the 3rd row data
+2020-02-09 15:32:06 INFO  BlogsPageTest:159 - verifying the 4th row data
+2020-02-09 15:32:06 INFO  BlogsPageTest:170 - Closing the browser
+2020-02-09 15:36:22 INFO  BlogsPageTest:35 - Initializing the browser
+2020-02-09 15:36:22 INFO  BlogsPageTest:36 - Opening the URL
+2020-02-09 15:36:32 INFO  BlogsPageTest:90 - ==========Title of the table=====
+2020-02-09 15:37:09 INFO  BlogsPageTest:92 - Title of Contribute page: Ruby on Rails | A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
+2020-02-09 15:37:35 INFO  BlogsPageTest:170 - Closing the browser
+2020-02-09 15:38:35 INFO  BlogsPageTest:35 - Initializing the browser
+2020-02-09 15:38:35 INFO  BlogsPageTest:36 - Opening the URL
+2020-02-09 15:38:45 INFO  BlogsPageTest:59 - Clicking on the Blog
+2020-02-09 15:38:47 INFO  BlogsPageTest:62 - Title of blog pageRiding Rails
+2020-02-09 15:38:47 INFO  BlogsPageTest:49 - Checking the links
+2020-02-09 15:38:48 INFO  BrokenLinkUtil:28 - Total links are 144
+2020-02-09 15:40:14 INFO  BlogsPageTest:71 - Clicking on 18 ContributorsToRailsTest 
+2020-02-09 15:40:15 INFO  BlogsPageTest:80 - Clicking on this week from the table
+2020-02-09 15:40:15 INFO  BlogsPageTest:90 - ==========Title of the table=====
+2020-02-09 15:40:32 INFO  BlogsPageTest:92 - Title of Contribute page: Rails Contributors - This week
+2020-02-09 15:42:17 INFO  BlogsPageTest:95 - Rails Contributors - This week
+Showing 20 people
+2020-02-09 15:42:17 INFO  BlogsPageTest:98 - Title matches
+2020-02-09 15:42:18 INFO  BlogsPageTest:112 - No of Rows: 21
+2020-02-09 15:42:18 INFO  BlogsPageTest:113 - No of Rows: 4
+2020-02-09 15:42:18 INFO  BlogsPageTest:114 - Displaying the table data
+2020-02-09 15:42:27 INFO  BlogsPageTest:138 - verifying the 1st row data
+2020-02-09 15:42:27 INFO  BlogsPageTest:145 - verifying the 2nd row data
+2020-02-09 15:42:28 INFO  BlogsPageTest:152 - verifying the 3rd row data
+2020-02-09 15:42:28 INFO  BlogsPageTest:159 - verifying the 4th row data
+2020-02-09 15:42:28 INFO  BlogsPageTest:170 - Closing the browser
+2020-02-09 15:57:46 INFO  BlogsPageTest:38 - Initializing the browser
+2020-02-09 15:57:46 INFO  BlogsPageTest:39 - Opening the URL
+2020-02-09 15:57:57 INFO  BlogsPageTest:62 - Clicking on the Blog
+2020-02-09 15:57:59 INFO  BlogsPageTest:65 - Title of blog pageRiding Rails
+2020-02-09 15:58:00 INFO  BlogsPageTest:52 - Checking the links
+2020-02-09 15:58:00 INFO  BrokenLinkUtil:28 - Total links are 144
+2020-02-09 15:59:27 INFO  BlogsPageTest:74 - Clicking on 18 ContributorsToRailsTest 
+2020-02-09 15:59:28 INFO  BlogsPageTest:83 - Clicking on this week from the table
+2020-02-09 15:59:29 INFO  BlogsPageTest:93 - ==========Title of the table=====
+2020-02-09 15:59:29 INFO  BlogsPageTest:95 - Title of Contribute page: Rails Contributors - Date Range
+2020-02-09 15:59:29 INFO  BlogsPageTest:125 - No of Rows: 22
+2020-02-09 15:59:29 INFO  BlogsPageTest:126 - No of Rows: 4
+2020-02-09 15:59:29 INFO  BlogsPageTest:127 - Displaying the table data
+2020-02-09 15:59:39 INFO  BlogsPageTest:151 - verifying the 1st row data
+2020-02-09 15:59:39 INFO  BlogsPageTest:158 - verifying the 2nd row data
+2020-02-09 15:59:39 INFO  BlogsPageTest:165 - verifying the 3rd row data
+2020-02-09 15:59:39 INFO  BlogsPageTest:172 - verifying the 4th row data
+2020-02-09 15:59:39 INFO  BlogsPageTest:183 - Closing the browser
+2020-02-09 16:03:31 INFO  BlogsPageTest:39 - Initializing the browser
+2020-02-09 16:03:31 INFO  BlogsPageTest:40 - Opening the URL
+2020-02-09 16:03:40 INFO  BlogsPageTest:63 - Clicking on the Blog
+2020-02-09 16:03:41 INFO  BlogsPageTest:66 - Title of blog pageRiding Rails
+2020-02-09 16:03:41 INFO  BlogsPageTest:53 - Checking the links
+2020-02-09 16:03:42 INFO  BrokenLinkUtil:28 - Total links are 144
+2020-02-09 16:05:09 INFO  BlogsPageTest:75 - Clicking on 18 ContributorsToRailsTest 
+2020-02-09 16:05:10 INFO  BlogsPageTest:84 - Clicking on this week from the table
+2020-02-09 16:05:10 INFO  BlogsPageTest:94 - ==========Title of the table=====
+2020-02-09 16:05:10 INFO  BlogsPageTest:96 - Title of Contribute page: Rails Contributors - This week
+2020-02-09 16:05:10 INFO  BlogsPageTest:100 - Rails Contributors - This week
+Showing 21 people
+2020-02-09 16:05:11 INFO  BlogsPageTest:131 - No of Rows: 22
+2020-02-09 16:05:11 INFO  BlogsPageTest:132 - No of Rows: 4
+2020-02-09 16:05:11 INFO  BlogsPageTest:133 - Displaying the table data
+2020-02-09 16:05:20 INFO  BlogsPageTest:157 - verifying the 1st row data
+2020-02-09 16:05:20 INFO  BlogsPageTest:164 - verifying the 2nd row data
+2020-02-09 16:05:20 INFO  BlogsPageTest:171 - verifying the 3rd row data
+2020-02-09 16:05:20 INFO  BlogsPageTest:178 - verifying the 4th row data
+2020-02-09 16:05:20 INFO  BlogsPageTest:189 - Closing the browser
+2020-02-09 16:06:47 INFO  BlogsPageTest:40 - Initializing the browser
+2020-02-09 16:06:47 INFO  BlogsPageTest:41 - Opening the URL
+2020-02-09 16:06:54 INFO  BlogsPageTest:65 - Clicking on the Blog
+2020-02-09 16:06:54 INFO  BlogsPageTest:68 - Title of blog pageRiding Rails
+2020-02-09 16:06:55 INFO  BlogsPageTest:77 - Clicking on 18 ContributorsToRailsTest 
+2020-02-09 16:06:55 INFO  BlogsPageTest:86 - Clicking on this week from the table
+2020-02-09 16:06:55 INFO  BlogsPageTest:96 - ==========Title of the table=====
+2020-02-09 16:06:55 INFO  BlogsPageTest:98 - Title of Contribute page: Rails Contributors - Date Range
+2020-02-09 16:06:55 INFO  BlogsPageTest:102 - Rails Contributors - Date Range
+Showing 21 people
+2020-02-09 16:06:56 INFO  BlogsPageTest:133 - No of Rows: 22
+2020-02-09 16:06:56 INFO  BlogsPageTest:134 - No of Rows: 4
+2020-02-09 16:06:56 INFO  BlogsPageTest:135 - Displaying the table data
+2020-02-09 16:07:02 INFO  BlogsPageTest:159 - verifying the 1st row data
+2020-02-09 16:07:02 INFO  BlogsPageTest:166 - verifying the 2nd row data
+2020-02-09 16:07:02 INFO  BlogsPageTest:173 - verifying the 3rd row data
+2020-02-09 16:07:03 INFO  BlogsPageTest:180 - verifying the 4th row data
+2020-02-09 16:07:03 INFO  BlogsPageTest:191 - Closing the browser
+2020-02-09 16:08:25 INFO  BlogsPageTest:40 - Initializing the browser
+2020-02-09 16:08:25 INFO  BlogsPageTest:41 - Opening the URL
+2020-02-09 16:08:32 INFO  BlogsPageTest:65 - Clicking on the Blog
+2020-02-09 16:08:33 INFO  BlogsPageTest:68 - Title of blog pageRiding Rails
+2020-02-09 16:08:33 INFO  BlogsPageTest:77 - Clicking on 18 ContributorsToRailsTest 
+2020-02-09 16:08:34 INFO  BlogsPageTest:86 - Clicking on this week from the table
+2020-02-09 16:08:34 INFO  BlogsPageTest:96 - ==========Title of the table=====
+2020-02-09 16:08:34 INFO  BlogsPageTest:98 - Title of Contribute page: Rails Contributors - Date Range
+2020-02-09 16:08:34 INFO  BlogsPageTest:102 - Rails Contributors - This week
+Showing 21 people
+2020-02-09 16:08:34 INFO  BlogsPageTest:119 - Title matches
+2020-02-09 16:08:34 INFO  BlogsPageTest:133 - No of Rows: 22
+2020-02-09 16:08:34 INFO  BlogsPageTest:134 - No of Rows: 4
+2020-02-09 16:08:34 INFO  BlogsPageTest:135 - Displaying the table data
+2020-02-09 16:08:41 INFO  BlogsPageTest:159 - verifying the 1st row data
+2020-02-09 16:08:41 INFO  BlogsPageTest:166 - verifying the 2nd row data
+2020-02-09 16:08:41 INFO  BlogsPageTest:173 - verifying the 3rd row data
+2020-02-09 16:08:41 INFO  BlogsPageTest:180 - verifying the 4th row data
+2020-02-09 16:08:41 INFO  BlogsPageTest:191 - Closing the browser
+2020-02-09 16:21:32 INFO  HomePageTest:43 - Opening the browser and accessing the URL
+2020-02-09 16:21:38 INFO  HomePageTest:57 - Checking if the links are working fine
+2020-02-09 16:21:38 INFO  BrokenLinkUtil:28 - Total links are 28
+2020-02-09 16:21:51 INFO  HomePageTest:98 - Closing the browser
+2020-02-09 16:26:42 INFO  HomePageTest:43 - Opening the browser and accessing the URL
+2020-02-09 16:26:52 INFO  HomePageTest:57 - Checking if the links are working fine
+2020-02-09 16:26:52 INFO  BrokenLinkUtil:28 - Total links are 28
+2020-02-09 16:27:05 INFO  HomePageTest:66 - Validating the home page Title
+2020-02-09 16:27:05 INFO  HomePageTest:68 - title of the home page: Ruby on Rails | A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
+2020-02-09 16:27:05 INFO  HomePageTest:78 - Checking if the home page logo is displayed
+2020-02-09 16:27:05 INFO  HomePageTest:88 - Checking if the Footer logo of home page is displayed
+2020-02-09 16:27:05 INFO  HomePageTest:98 - Closing the browser
+2020-02-09 16:27:06 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 16:27:12 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 16:27:15 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 16:27:15 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 16:27:15 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 16:27:16 INFO  APIpagesTest:27 - Opening Browser
+2020-02-09 16:27:22 INFO  APIpagesTest:38 - Clicking on API menu
+2020-02-09 16:27:23 INFO  APIpagesTest:46 - Checking for Active and broken links
+2020-02-09 16:27:23 INFO  BrokenLinkUtil:28 - Total links are 25
+2020-02-09 16:27:29 INFO  APIpagesTest:57 - Clicking on Action Controller
+2020-02-09 16:27:30 INFO  APIpagesTest:68 - Clicking on Abstarct Controller
+2020-02-09 16:27:30 INFO  APIpagesTest:80 - Click on Search 
+2020-02-09 16:27:31 INFO  APIpagesTest:91 - Closing the browser
+2020-02-09 16:27:38 INFO  GuidePageTest:43 - Clicking on Guides
+2020-02-09 16:27:39 INFO  GuidePageTest:46 - Validating the title of the page
+2020-02-09 16:27:39 INFO  GuidePageTest:48 - Title of the page is :Ruby on Rails Guides
+2020-02-09 16:27:39 INFO  GuidePageTest:57 - Validatng the Footer Text
+2020-02-09 16:27:39 INFO  GuidePageTest:60 - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License
+2020-02-09 16:27:39 INFO  GuidePageTest:61 - "Rails", "Ruby on Rails", and the Rails logo are trademarks of David Heinemeier Hansson. All rights reserved.
+2020-02-09 16:27:39 INFO  GuidePageTest:71 - Checking if the links are working fine
+2020-02-09 16:27:39 INFO  BrokenLinkUtil:28 - Total links are 133
+2020-02-09 16:28:16 INFO  GuidePageTest:78 - clicking OnGuidesIndex
+2020-02-09 16:28:17 INFO  GuidePageTest:91 - Closing the browser
+2020-02-09 16:28:17 INFO  BlogsPageTest:40 - Initializing the browser
+2020-02-09 16:28:17 INFO  BlogsPageTest:41 - Opening the URL
+2020-02-09 16:28:23 INFO  BlogsPageTest:65 - Clicking on the Blog
+2020-02-09 16:28:25 INFO  BlogsPageTest:68 - Title of blog pageRiding Rails
+2020-02-09 16:28:25 INFO  BlogsPageTest:77 - Clicking on 18 ContributorsToRailsTest 
+2020-02-09 16:28:26 INFO  BlogsPageTest:86 - Clicking on this week from the table
+2020-02-09 16:28:26 INFO  BlogsPageTest:96 - ==========Title of the table=====
+2020-02-09 16:28:26 INFO  BlogsPageTest:98 - Title of Contribute page: Rails Contributors - Date Range
+2020-02-09 16:28:26 INFO  BlogsPageTest:102 - Rails Contributors - Date Range
+Showing 21 people
+2020-02-09 16:28:27 INFO  BlogsPageTest:133 - No of Rows: 22
+2020-02-09 16:28:27 INFO  BlogsPageTest:134 - No of Rows: 4
+2020-02-09 16:28:27 INFO  BlogsPageTest:135 - Displaying the table data
+2020-02-09 16:28:27 INFO  BlogsPageTest:191 - Closing the browser
+2020-02-09 16:30:02 INFO  HomePageTest:43 - Opening the browser and accessing the URL
+2020-02-09 16:30:09 INFO  HomePageTest:57 - Checking if the links are working fine
+2020-02-09 16:30:09 INFO  BrokenLinkUtil:28 - Total links are 28
+2020-02-09 16:30:19 INFO  HomePageTest:66 - Validating the home page Title
+2020-02-09 16:30:19 INFO  HomePageTest:68 - title of the home page: Ruby on Rails | A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
+2020-02-09 16:30:19 INFO  HomePageTest:78 - Checking if the home page logo is displayed
+2020-02-09 16:30:19 INFO  HomePageTest:88 - Checking if the Footer logo of home page is displayed
+2020-02-09 16:30:19 INFO  HomePageTest:98 - Closing the browser
+2020-02-09 16:30:20 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 16:30:27 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 16:30:30 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 16:30:30 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 16:30:30 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 16:30:31 INFO  APIpagesTest:27 - Opening Browser
+2020-02-09 16:30:37 INFO  APIpagesTest:38 - Clicking on API menu
+2020-02-09 16:30:38 INFO  APIpagesTest:46 - Checking for Active and broken links
+2020-02-09 16:30:38 INFO  BrokenLinkUtil:28 - Total links are 25
+2020-02-09 16:30:45 INFO  APIpagesTest:57 - Clicking on Action Controller
+2020-02-09 16:30:45 INFO  APIpagesTest:68 - Clicking on Abstarct Controller
+2020-02-09 16:30:45 INFO  APIpagesTest:80 - Click on Search 
+2020-02-09 16:30:46 INFO  APIpagesTest:91 - Closing the browser
+2020-02-09 16:30:53 INFO  GuidePageTest:43 - Clicking on Guides
+2020-02-09 16:30:54 INFO  GuidePageTest:46 - Validating the title of the page
+2020-02-09 16:30:54 INFO  GuidePageTest:48 - Title of the page is :Ruby on Rails Guides
+2020-02-09 16:30:54 INFO  GuidePageTest:57 - Validatng the Footer Text
+2020-02-09 16:30:54 INFO  GuidePageTest:60 - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License
+2020-02-09 16:30:54 INFO  GuidePageTest:61 - "Rails", "Ruby on Rails", and the Rails logo are trademarks of David Heinemeier Hansson. All rights reserved.
+2020-02-09 16:30:54 INFO  GuidePageTest:71 - Checking if the links are working fine
+2020-02-09 16:30:54 INFO  BrokenLinkUtil:28 - Total links are 133
+2020-02-09 16:31:32 INFO  GuidePageTest:78 - clicking OnGuidesIndex
+2020-02-09 16:31:32 INFO  GuidePageTest:91 - Closing the browser
+2020-02-09 16:31:33 INFO  BlogsPageTest:40 - Initializing the browser
+2020-02-09 16:31:33 INFO  BlogsPageTest:41 - Opening the URL
+2020-02-09 16:31:39 INFO  BlogsPageTest:65 - Clicking on the Blog
+2020-02-09 16:31:40 INFO  BlogsPageTest:68 - Title of blog pageRiding Rails
+2020-02-09 16:31:40 INFO  BlogsPageTest:77 - Clicking on 18 ContributorsToRailsTest 
+2020-02-09 16:31:42 INFO  BlogsPageTest:86 - Clicking on this week from the table
+2020-02-09 16:31:42 INFO  BlogsPageTest:96 - ==========Title of the table=====
+2020-02-09 16:31:42 INFO  BlogsPageTest:98 - Title of Contribute page: Rails Contributors - Date Range
+2020-02-09 16:31:42 INFO  BlogsPageTest:102 - Rails Contributors - Date Range
+Showing 21 people
+2020-02-09 16:31:42 INFO  BlogsPageTest:119 - Title matches
+2020-02-09 16:31:42 INFO  BlogsPageTest:133 - No of Rows: 22
+2020-02-09 16:31:42 INFO  BlogsPageTest:134 - No of Rows: 4
+2020-02-09 16:31:42 INFO  BlogsPageTest:135 - Displaying the table data
+2020-02-09 16:31:49 INFO  BlogsPageTest:159 - verifying the 1st row data
+2020-02-09 16:31:49 INFO  BlogsPageTest:166 - verifying the 2nd row data
+2020-02-09 16:31:49 INFO  BlogsPageTest:173 - verifying the 3rd row data
+2020-02-09 16:31:49 INFO  BlogsPageTest:180 - verifying the 4th row data
+2020-02-09 16:31:50 INFO  BlogsPageTest:191 - Closing the browser
+2020-02-09 16:32:16 INFO  HomePageTest:43 - Opening the browser and accessing the URL
+2020-02-09 16:32:23 INFO  HomePageTest:57 - Checking if the links are working fine
+2020-02-09 16:32:23 INFO  BrokenLinkUtil:28 - Total links are 28
+2020-02-09 16:32:35 INFO  HomePageTest:66 - Validating the home page Title
+2020-02-09 16:32:35 INFO  HomePageTest:68 - title of the home page: Ruby on Rails | A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
+2020-02-09 16:32:35 INFO  HomePageTest:78 - Checking if the home page logo is displayed
+2020-02-09 16:32:35 INFO  HomePageTest:88 - Checking if the Footer logo of home page is displayed
+2020-02-09 16:32:35 INFO  HomePageTest:98 - Closing the browser
+2020-02-09 16:32:36 INFO  ContributeToGitPagesTest:25 - Opening Browser
+2020-02-09 16:32:41 INFO  ContributeToGitPagesTest:35 - Click on Contribute to Git
+2020-02-09 16:32:46 INFO  ContributeToGitPagesTest:43 - Checking the Title after clicking the page
+2020-02-09 16:32:46 INFO  ContributeToGitPagesTest:45 - Title of the page isGitHub - rails/rails: Ruby on Rails
+2020-02-09 16:32:46 INFO  ContributeToGitPagesTest:53 - Closing the browser
+2020-02-09 16:32:47 INFO  APIpagesTest:27 - Opening Browser
+2020-02-09 16:32:52 INFO  APIpagesTest:38 - Clicking on API menu
+2020-02-09 16:32:53 INFO  APIpagesTest:46 - Checking for Active and broken links
+2020-02-09 16:32:54 INFO  BrokenLinkUtil:28 - Total links are 25
+2020-02-09 16:33:00 INFO  APIpagesTest:57 - Clicking on Action Controller
+2020-02-09 16:33:00 INFO  APIpagesTest:68 - Clicking on Abstarct Controller
+2020-02-09 16:33:00 INFO  APIpagesTest:80 - Click on Search 
+2020-02-09 16:33:02 INFO  APIpagesTest:91 - Closing the browser
+2020-02-09 16:33:09 INFO  GuidePageTest:43 - Clicking on Guides
+2020-02-09 16:33:10 INFO  GuidePageTest:46 - Validating the title of the page
+2020-02-09 16:33:10 INFO  GuidePageTest:48 - Title of the page is :Ruby on Rails Guides
+2020-02-09 16:33:10 INFO  GuidePageTest:57 - Validatng the Footer Text
+2020-02-09 16:33:10 INFO  GuidePageTest:60 - This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License
+2020-02-09 16:33:10 INFO  GuidePageTest:61 - "Rails", "Ruby on Rails", and the Rails logo are trademarks of David Heinemeier Hansson. All rights reserved.
+2020-02-09 16:33:10 INFO  GuidePageTest:71 - Checking if the links are working fine
+2020-02-09 16:33:10 INFO  BrokenLinkUtil:28 - Total links are 133
+2020-02-09 16:33:48 INFO  GuidePageTest:78 - clicking OnGuidesIndex
+2020-02-09 16:33:48 INFO  GuidePageTest:91 - Closing the browser
+2020-02-09 16:33:49 INFO  BlogsPageTest:40 - Initializing the browser
+2020-02-09 16:33:49 INFO  BlogsPageTest:41 - Opening the URL
+2020-02-09 16:33:54 INFO  BlogsPageTest:65 - Clicking on the Blog
+2020-02-09 16:33:55 INFO  BlogsPageTest:68 - Title of blog pageRiding Rails
+2020-02-09 16:33:55 INFO  BlogsPageTest:77 - Clicking on 18 ContributorsToRailsTest 
+2020-02-09 16:33:55 INFO  BlogsPageTest:86 - Clicking on this week from the table
+2020-02-09 16:33:56 INFO  BlogsPageTest:96 - ==========Title of the table=====
+2020-02-09 16:33:56 INFO  BlogsPageTest:98 - Title of Contribute page: Rails Contributors - Date Range
+2020-02-09 16:33:56 ERROR BlogsPageTest:116 - ===Stale state exception occured, Please verify
+2020-02-09 16:33:56 INFO  BlogsPageTest:119 - Title matches
+2020-02-09 16:33:56 INFO  BlogsPageTest:133 - No of Rows: 23
+2020-02-09 16:33:56 INFO  BlogsPageTest:134 - No of Rows: 4
+2020-02-09 16:33:56 INFO  BlogsPageTest:135 - Displaying the table data
+2020-02-09 16:34:03 INFO  BlogsPageTest:159 - verifying the 1st row data
+2020-02-09 16:34:03 INFO  BlogsPageTest:166 - verifying the 2nd row data
+2020-02-09 16:34:03 INFO  BlogsPageTest:173 - verifying the 3rd row data
+2020-02-09 16:34:03 INFO  BlogsPageTest:180 - verifying the 4th row data
+2020-02-09 16:34:03 INFO  BlogsPageTest:191 - Closing the browser

@@ -1,179 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+<testng-results ignored="1" total="22" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-08T02:58:23Z" name="Default suite" finished-at="2020-02-08T02:59:00Z" duration-ms="37634">
+  <suite started-at="2020-02-09T22:32:16Z" name="Regression Testing" finished-at="2020-02-09T22:34:04Z" duration-ms="108286">
     <groups>
     </groups>
-    <test started-at="2020-02-08T02:58:23Z" name="Default test" finished-at="2020-02-08T02:59:00Z" duration-ms="37634">
-      <class name="com.rubyonrails.qa.test.BlogsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rubyonrails.qa.test.BlogsPageTest@20d525]" started-at="2020-02-08T02:58:23Z" name="setUp" finished-at="2020-02-08T02:58:29Z" duration-ms="6602" status="PASS">
+    <test started-at="2020-02-09T22:32:16Z" name="HomePageTest" finished-at="2020-02-09T22:32:36Z" duration-ms="20102">
+      <class name="com.rubyonrails.qa.test.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rubyonrails.qa.test.HomePageTest@2c1b194a]" started-at="2020-02-09T22:32:16Z" name="setUp" finished-at="2020-02-09T22:32:23Z" duration-ms="6899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnBlogTest()[pri:1, instance:com.rubyonrails.qa.test.BlogsPageTest@20d525]" started-at="2020-02-08T02:58:29Z" name="clickOnBlogTest" finished-at="2020-02-08T02:58:33Z" duration-ms="3356" status="PASS">
+        <test-method signature="checkBrokenLinksTest()[pri:1, instance:com.rubyonrails.qa.test.HomePageTest@2c1b194a]" started-at="2020-02-09T22:32:23Z" name="checkBrokenLinksTest" finished-at="2020-02-09T22:32:35Z" duration-ms="12029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBrokenLinksTest -->
+        <test-method signature="validateTitleTest()[pri:2, instance:com.rubyonrails.qa.test.HomePageTest@2c1b194a]" started-at="2020-02-09T22:32:35Z" name="validateTitleTest" finished-at="2020-02-09T22:32:35Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleTest -->
+        <test-method signature="logoDisplayTest()[pri:3, instance:com.rubyonrails.qa.test.HomePageTest@2c1b194a]" started-at="2020-02-09T22:32:35Z" name="logoDisplayTest" finished-at="2020-02-09T22:32:35Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoDisplayTest -->
+        <test-method signature="footerLogoTest()[pri:4, instance:com.rubyonrails.qa.test.HomePageTest@2c1b194a]" started-at="2020-02-09T22:32:35Z" name="footerLogoTest" finished-at="2020-02-09T22:32:35Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rubyonrails.qa.test.HomePageTest@2c1b194a]" started-at="2020-02-09T22:32:35Z" name="tearDown" finished-at="2020-02-09T22:32:36Z" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rubyonrails.qa.test.HomePageTest -->
+    </test> <!-- HomePageTest -->
+    <test started-at="2020-02-09T22:32:36Z" name="ContributeToGit Test" finished-at="2020-02-09T22:32:47Z" duration-ms="10964">
+      <class name="com.rubyonrails.qa.test.ContributeToGitPagesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rubyonrails.qa.test.ContributeToGitPagesTest@7db12bb6]" started-at="2020-02-09T22:32:36Z" name="setUp" finished-at="2020-02-09T22:32:41Z" duration-ms="5400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnContributeToGitTest()[pri:0, instance:com.rubyonrails.qa.test.ContributeToGitPagesTest@7db12bb6]" started-at="2020-02-09T22:32:41Z" name="clickOnContributeToGitTest" finished-at="2020-02-09T22:32:46Z" duration-ms="4439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContributeToGitTest -->
+        <test-method signature="validateTitleTest()[pri:0, instance:com.rubyonrails.qa.test.ContributeToGitPagesTest@7db12bb6]" started-at="2020-02-09T22:32:46Z" name="validateTitleTest" finished-at="2020-02-09T22:32:46Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.rubyonrails.qa.test.ContributeToGitPagesTest@7db12bb6]" started-at="2020-02-09T22:32:46Z" name="tearDownTest" finished-at="2020-02-09T22:32:47Z" duration-ms="1023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.rubyonrails.qa.test.ContributeToGitPagesTest -->
+    </test> <!-- ContributeToGit Test -->
+    <test started-at="2020-02-09T22:32:47Z" name="API Test" finished-at="2020-02-09T22:33:03Z" duration-ms="16616">
+      <class name="com.rubyonrails.qa.test.APIpagesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rubyonrails.qa.test.APIpagesTest@60bd273d]" started-at="2020-02-09T22:32:47Z" name="setUp" finished-at="2020-02-09T22:32:52Z" duration-ms="5306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnAPITest()[pri:1, instance:com.rubyonrails.qa.test.APIpagesTest@60bd273d]" started-at="2020-02-09T22:32:52Z" name="clickOnAPITest" finished-at="2020-02-09T22:32:53Z" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAPITest -->
+        <test-method signature="checkBrokenLinksTest()[pri:2, instance:com.rubyonrails.qa.test.APIpagesTest@60bd273d]" started-at="2020-02-09T22:32:53Z" name="checkBrokenLinksTest" finished-at="2020-02-09T22:33:00Z" duration-ms="6198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBrokenLinksTest -->
+        <test-method signature="clickOnActionControllerTest()[pri:3, instance:com.rubyonrails.qa.test.APIpagesTest@60bd273d]" started-at="2020-02-09T22:33:00Z" name="clickOnActionControllerTest" finished-at="2020-02-09T22:33:00Z" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnActionControllerTest -->
+        <test-method signature="clickOnAbstractControllerTest()[pri:4, instance:com.rubyonrails.qa.test.APIpagesTest@60bd273d]" started-at="2020-02-09T22:33:00Z" name="clickOnAbstractControllerTest" finished-at="2020-02-09T22:33:00Z" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAbstractControllerTest -->
+        <test-method signature="searchTest()[pri:5, instance:com.rubyonrails.qa.test.APIpagesTest@60bd273d]" started-at="2020-02-09T22:33:00Z" name="searchTest" finished-at="2020-02-09T22:33:02Z" duration-ms="1817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.rubyonrails.qa.test.APIpagesTest@60bd273d]" started-at="2020-02-09T22:33:02Z" name="tearDownTest" finished-at="2020-02-09T22:33:03Z" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.rubyonrails.qa.test.APIpagesTest -->
+    </test> <!-- API Test -->
+    <test started-at="2020-02-09T22:33:03Z" name="Guide Test" finished-at="2020-02-09T22:33:49Z" duration-ms="45326">
+      <class name="com.rubyonrails.qa.test.GuidePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rubyonrails.qa.test.GuidePageTest@2e6a8155]" started-at="2020-02-09T22:33:03Z" name="setUp" finished-at="2020-02-09T22:33:09Z" duration-ms="5239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnGuidesMenuTest()[pri:1, instance:com.rubyonrails.qa.test.GuidePageTest@2e6a8155]" started-at="2020-02-09T22:33:09Z" name="clickOnGuidesMenuTest" finished-at="2020-02-09T22:33:10Z" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGuidesMenuTest -->
+        <test-method signature="footerText()[pri:2, instance:com.rubyonrails.qa.test.GuidePageTest@2e6a8155]" started-at="2020-02-09T22:33:10Z" name="footerText" finished-at="2020-02-09T22:33:10Z" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerText -->
+        <test-method signature="checkBrokenLinksTest()[pri:3, instance:com.rubyonrails.qa.test.GuidePageTest@2e6a8155]" started-at="2020-02-09T22:33:10Z" name="checkBrokenLinksTest" finished-at="2020-02-09T22:33:48Z" duration-ms="37543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBrokenLinksTest -->
+        <test-method signature="clickOnGuidesIndexTest()[pri:4, instance:com.rubyonrails.qa.test.GuidePageTest@2e6a8155]" started-at="2020-02-09T22:33:48Z" name="clickOnGuidesIndexTest" finished-at="2020-02-09T22:33:48Z" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGuidesIndexTest -->
+        <test-method signature="controllerTest()[pri:5, instance:com.rubyonrails.qa.test.GuidePageTest@2e6a8155]" started-at="2020-02-09T22:33:48Z" name="controllerTest" finished-at="2020-02-09T22:33:48Z" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- controllerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rubyonrails.qa.test.GuidePageTest@2e6a8155]" started-at="2020-02-09T22:33:48Z" name="tearDown" finished-at="2020-02-09T22:33:49Z" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rubyonrails.qa.test.GuidePageTest -->
+    </test> <!-- Guide Test -->
+    <test started-at="2020-02-09T22:33:49Z" name="Blogs Test" finished-at="2020-02-09T22:34:04Z" duration-ms="15157">
+      <class name="com.rubyonrails.qa.test.BlogsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rubyonrails.qa.test.BlogsPageTest@4b45a2f5]" started-at="2020-02-09T22:33:49Z" name="setUp" finished-at="2020-02-09T22:33:54Z" duration-ms="5256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnBlogTest()[pri:1, instance:com.rubyonrails.qa.test.BlogsPageTest@4b45a2f5]" started-at="2020-02-09T22:33:54Z" name="clickOnBlogTest" finished-at="2020-02-09T22:33:55Z" duration-ms="815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnBlogTest -->
-        <test-method signature="clickOnContributorsToRailsTest()[pri:2, instance:com.rubyonrails.qa.test.BlogsPageTest@20d525]" started-at="2020-02-08T02:58:33Z" name="clickOnContributorsToRailsTest" finished-at="2020-02-08T02:58:36Z" duration-ms="2881" status="PASS">
+        <test-method signature="clickOnContributorsToRailsTest()[pri:3, instance:com.rubyonrails.qa.test.BlogsPageTest@4b45a2f5]" started-at="2020-02-09T22:33:55Z" name="clickOnContributorsToRailsTest" finished-at="2020-02-09T22:33:55Z" duration-ms="626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnContributorsToRailsTest -->
-        <test-method signature="clickOnThisWeekTest()[pri:3, instance:com.rubyonrails.qa.test.BlogsPageTest@20d525]" started-at="2020-02-08T02:58:36Z" name="clickOnThisWeekTest" finished-at="2020-02-08T02:58:36Z" duration-ms="156" status="PASS">
+        <test-method signature="clickOnThisWeekTest()[pri:4, instance:com.rubyonrails.qa.test.BlogsPageTest@4b45a2f5]" started-at="2020-02-09T22:33:55Z" name="clickOnThisWeekTest" finished-at="2020-02-09T22:33:56Z" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnThisWeekTest -->
-        <test-method signature="tableTitleTest()[pri:4, instance:com.rubyonrails.qa.test.BlogsPageTest@20d525]" started-at="2020-02-08T02:58:36Z" name="tableTitleTest" finished-at="2020-02-08T02:58:36Z" duration-ms="74" status="PASS">
+        <test-method signature="tableTitleTest()[pri:5, instance:com.rubyonrails.qa.test.BlogsPageTest@4b45a2f5]" started-at="2020-02-09T22:33:56Z" name="tableTitleTest" finished-at="2020-02-09T22:33:56Z" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tableTitleTest -->
-        <test-method signature="displayTableContentsTest()[pri:5, instance:com.rubyonrails.qa.test.BlogsPageTest@20d525]" started-at="2020-02-08T02:58:36Z" name="displayTableContentsTest" finished-at="2020-02-08T02:58:50Z" duration-ms="14330" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='table-wrap']//tbody//tr[22]//td[1]"}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'RAINBOW', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SUDARS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b15e8e8024c428b520af691457e32478
-*** Element info: {Using=xpath, value=//*[@id='table-wrap']//tbody//tr[22]//td[1]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='table-wrap']//tbody//tr[22]//td[1]"}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'RAINBOW', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SUDARS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b15e8e8024c428b520af691457e32478
-*** Element info: {Using=xpath, value=//*[@id='table-wrap']//tbody//tr[22]//td[1]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at com.rubyonrails.qa.test.BlogsPageTest.displayTableContentsTest(BlogsPageTest.java:72)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="displayTableContentsTest()[pri:6, instance:com.rubyonrails.qa.test.BlogsPageTest@4b45a2f5]" started-at="2020-02-09T22:33:56Z" name="displayTableContentsTest" finished-at="2020-02-09T22:34:03Z" duration-ms="6943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayTableContentsTest -->
-        <test-method signature="clickOnRelease()[pri:6, instance:com.rubyonrails.qa.test.BlogsPageTest@20d525]" started-at="2020-02-08T02:58:50Z" name="clickOnRelease" finished-at="2020-02-08T02:58:50Z" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rubyonrails.qa.test.BlogsPageTest@4b45a2f5]" started-at="2020-02-09T22:34:03Z" name="tearDown" finished-at="2020-02-09T22:34:04Z" duration-ms="1197" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnRelease -->
-        <test-method signature="clickOnActionTest()[pri:7, instance:com.rubyonrails.qa.test.BlogsPageTest@20d525]" started-at="2020-02-08T02:58:50Z" name="clickOnActionTest" finished-at="2020-02-08T02:59:00Z" duration-ms="10033" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Action Cable CHANGELOG')]"}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'RAINBOW', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SUDARS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b15e8e8024c428b520af691457e32478
-*** Element info: {Using=xpath, value=//a[contains(text(),'Action Cable CHANGELOG')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Action Cable CHANGELOG')]"}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'RAINBOW', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SUDARS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b15e8e8024c428b520af691457e32478
-*** Element info: {Using=xpath, value=//a[contains(text(),'Action Cable CHANGELOG')]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy11.click(Unknown Source)
-at com.rubyonrails.qa.pages.BlogsPage.clickOnActionChangeLog(BlogsPage.java:83)
-at com.rubyonrails.qa.test.BlogsPageTest.clickOnActionTest(BlogsPageTest.java:92)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnActionTest -->
+        </test-method> <!-- tearDown -->
       </class> <!-- com.rubyonrails.qa.test.BlogsPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Blogs Test -->
+  </suite> <!-- Regression Testing -->
 </testng-results>

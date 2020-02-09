@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Blogs Test(failed)">
+    <classes>
+      <class name="com.rubyonrails.qa.test.BlogsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tableTitleTest"/>
+        </methods>
+      </class> <!-- com.rubyonrails.qa.test.BlogsPageTest -->
+    </classes>
+  </test> <!-- Blogs Test(failed) -->
+</suite> <!-- Failed suite [Regression Testing] -->

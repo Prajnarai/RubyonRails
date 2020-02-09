@@ -6,8 +6,8 @@
       <class name="com.rubyonrails.qa.test.BlogsPageTest">
         <methods>
           <include name="setUp"/>
-          <include name="displayTableContentsTest"/>
-          <include name="clickOnActionTest"/>
+          <include name="tearDown"/>
+          <include name="tableTitleTest"/>
         </methods>
       </class> <!-- com.rubyonrails.qa.test.BlogsPageTest -->
     </classes>

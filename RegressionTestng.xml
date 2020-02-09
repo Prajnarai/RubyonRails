@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Testing">
+ <test thread-count="1" name="HomePageTest">
+    <classes>
+      <class name="com.rubyonrails.qa.test.HomePageTest"/>
+      </classes>
+      </test>
+      <test thread-count="1" name="ContributeToGit Test">
+      <classes>
+      <class name="com.rubyonrails.qa.test.ContributeToGitPagesTest"/>
+      </classes> </test>
+      <test thread-count="1" name="API Test">
+      <classes>
+      <class name="com.rubyonrails.qa.test.APIpagesTest"/>
+      </classes> </test>
+      <test thread-count="1" name="Guide Test">
+      <classes>
+      <class name="com.rubyonrails.qa.test.GuidePageTest"/>
+      </classes></test>
+      <test thread-count="1" name="Blogs Test">
+      <classes>
+      <class name="com.rubyonrails.qa.test.BlogsPageTest"/>
+      </classes></test>
+ 		<test thread-count="1" name="video Test">
+      <classes>
+      <class name="com.rubyonrails.qa.test.YouTubeVideoTest"/>
+      </classes></test>
+      
+  
+   
+</suite> <!-- Suite -->

@@ -13,8 +13,6 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import com.rubyonrails.qa.util.TestUtil;
 
-
-
 /**
  * 
  * @author Prajna
@@ -25,18 +23,18 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 
-	
-	public TestBase()  {
-	try {	prop = new Properties();
-		FileInputStream fis = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\main\\java\\com\\rubyonrails\\qa\\config\\config.properties");
-		prop.load(fis);
+	public TestBase() {
+		try {
+			prop = new Properties(); //load a properties file
+			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")
+					+ "\\src\\main\\java\\com\\rubyonrails\\qa\\config\\config.properties"); //path of properties file
+			prop.load(fis);
 
-	}catch(FileNotFoundException e) {
-		e.printStackTrace();
-	}catch(IOException e) {
-		e.printStackTrace();
-	}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	/**
@@ -46,7 +44,7 @@ public class TestBase {
 	 * @throws Exception
 	 */
 	public static void browserInitialization() throws Exception {
-		String browserName = prop.getProperty("browser");
+		String browserName = prop.getProperty("browser"); //set key and value
 		String url = prop.getProperty("url");
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
@@ -66,8 +64,11 @@ public class TestBase {
 		}
 
 		driver.manage().window().maximize(); // Maximize the window
+		driver.manage().deleteAllCookies(); //deleting cookies
 		driver.get(url);
-		 driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS); // wait till the page is completely loaded
+		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS); // wait till the page
+																									// is completely
+																									// loaded
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS); // implicit wait
 
 	}

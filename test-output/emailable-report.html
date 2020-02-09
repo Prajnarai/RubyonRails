@@ -8,119 +8,40 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">5</td><td class="num">0</td><td class="num attn">2</td><td class="num">37,634</td><td></td><td></td></tr>
+<tr><th colspan="7">Regression Testing</th></tr>
+<tr><td><a href="#t0">HomePageTest</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">20,102</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">ContributeToGit Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">10,964</td><td></td><td></td></tr>
+<tr><td><a href="#t2">API Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">16,616</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Guide Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">45,326</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Blogs Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">15,157</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">21</th><th class="num">0</th><th class="num">0</th><th class="num">108,165</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.rubyonrails.qa.test.BlogsPageTest</td><td><a href="#m0">clickOnActionTest</a></td><td rowspan="1">1581130730832</td><td rowspan="1">10033</td></tr><tr class="failedeven"><td><a href="#m1">displayTableContentsTest</a></td><td rowspan="1">1581130716352</td><td rowspan="1">14330</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.rubyonrails.qa.test.BlogsPageTest</td><td><a href="#m2">clickOnBlogTest</a></td><td rowspan="1">1581130709870</td><td rowspan="1">3356</td></tr><tr class="passedeven"><td><a href="#m3">clickOnContributorsToRailsTest</a></td><td rowspan="1">1581130713234</td><td rowspan="1">2881</td></tr><tr class="passedeven"><td><a href="#m4">clickOnRelease</a></td><td rowspan="1">1581130730701</td><td rowspan="1">129</td></tr><tr class="passedeven"><td><a href="#m5">clickOnThisWeekTest</a></td><td rowspan="1">1581130716117</td><td rowspan="1">156</td></tr><tr class="passedeven"><td><a href="#m6">tableTitleTest</a></td><td rowspan="1">1581130716276</td><td rowspan="1">74</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression Testing</th></tr></tbody><tbody id="t0"><tr><th colspan="4">HomePageTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.rubyonrails.qa.test.HomePageTest</td><td><a href="#m0">checkBrokenLinksTest</a></td><td rowspan="1">1581287543116</td><td rowspan="1">12029</td></tr><tr class="passedeven"><td><a href="#m1">footerLogoTest</a></td><td rowspan="1">1581287555226</td><td rowspan="1">54</td></tr><tr class="passedeven"><td><a href="#m2">logoDisplayTest</a></td><td rowspan="1">1581287555168</td><td rowspan="1">56</td></tr><tr class="passedeven"><td><a href="#m3">validateTitleTest</a></td><td rowspan="1">1581287555151</td><td rowspan="1">15</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">ContributeToGit Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.rubyonrails.qa.test.ContributeToGitPagesTest</td><td><a href="#m4">clickOnContributeToGitTest</a></td><td rowspan="1">1581287561739</td><td rowspan="1">4439</td></tr><tr class="passedeven"><td><a href="#m5">validateTitleTest</a></td><td rowspan="1">1581287566183</td><td rowspan="1">93</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">API Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.rubyonrails.qa.test.APIpagesTest</td><td><a href="#m6">checkBrokenLinksTest</a></td><td rowspan="1">1581287573962</td><td rowspan="1">6198</td></tr><tr class="passedeven"><td><a href="#m7">clickOnAPITest</a></td><td rowspan="1">1581287572616</td><td rowspan="1">1344</td></tr><tr class="passedeven"><td><a href="#m8">clickOnAbstractControllerTest</a></td><td rowspan="1">1581287580462</td><td rowspan="1">288</td></tr><tr class="passedeven"><td><a href="#m9">clickOnActionControllerTest</a></td><td rowspan="1">1581287580161</td><td rowspan="1">299</td></tr><tr class="passedeven"><td><a href="#m10">searchTest</a></td><td rowspan="1">1581287580753</td><td rowspan="1">1817</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Guide Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.rubyonrails.qa.test.GuidePageTest</td><td><a href="#m11">checkBrokenLinksTest</a></td><td rowspan="1">1581287590518</td><td rowspan="1">37543</td></tr><tr class="passedeven"><td><a href="#m12">clickOnGuidesIndexTest</a></td><td rowspan="1">1581287628063</td><td rowspan="1">148</td></tr><tr class="passedeven"><td><a href="#m13">clickOnGuidesMenuTest</a></td><td rowspan="1">1581287589176</td><td rowspan="1">1159</td></tr><tr class="passedeven"><td><a href="#m14">controllerTest</a></td><td rowspan="1">1581287628216</td><td rowspan="1">216</td></tr><tr class="passedeven"><td><a href="#m15">footerText</a></td><td rowspan="1">1581287590339</td><td rowspan="1">177</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Blogs Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.rubyonrails.qa.test.BlogsPageTest</td><td><a href="#m16">clickOnBlogTest</a></td><td rowspan="1">1581287634528</td><td rowspan="1">815</td></tr><tr class="passedeven"><td><a href="#m17">clickOnContributorsToRailsTest</a></td><td rowspan="1">1581287635345</td><td rowspan="1">626</td></tr><tr class="passedeven"><td><a href="#m18">clickOnThisWeekTest</a></td><td rowspan="1">1581287635973</td><td rowspan="1">197</td></tr><tr class="passedeven"><td><a href="#m19">displayTableContentsTest</a></td><td rowspan="1">1581287636286</td><td rowspan="1">6943</td></tr><tr class="passedeven"><td><a href="#m20">tableTitleTest</a></td><td rowspan="1">1581287636172</td><td rowspan="1">113</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.rubyonrails.qa.test.BlogsPageTest#clickOnActionTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Action Cable CHANGELOG&apos;)]&quot;}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RAINBOW&apos;, ip: &apos;192.168.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SUDARS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b15e8e8024c428b520af691457e32478
-*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Action Cable CHANGELOG&apos;)]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.rubyonrails.qa.pages.BlogsPage.clickOnActionChangeLog(BlogsPage.java:83)
-	at com.rubyonrails.qa.test.BlogsPageTest.clickOnActionTest(BlogsPageTest.java:92)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.rubyonrails.qa.test.BlogsPageTest#displayTableContentsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;table-wrap&apos;]//tbody//tr[22]//td[1]&quot;}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RAINBOW&apos;, ip: &apos;192.168.0.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SUDARS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b15e8e8024c428b520af691457e32478
-*** Element info: {Using=xpath, value=//*[@id=&apos;table-wrap&apos;]//tbody//tr[22]//td[1]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.rubyonrails.qa.test.BlogsPageTest.displayTableContentsTest(BlogsPageTest.java:72)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.rubyonrails.qa.test.BlogsPageTest#clickOnBlogTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.rubyonrails.qa.test.BlogsPageTest#clickOnContributorsToRailsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.rubyonrails.qa.test.BlogsPageTest#clickOnRelease</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.rubyonrails.qa.test.BlogsPageTest#clickOnThisWeekTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.rubyonrails.qa.test.BlogsPageTest#tableTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>HomePageTest</h2><h3 id="m0">com.rubyonrails.qa.test.HomePageTest#checkBrokenLinksTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.rubyonrails.qa.test.HomePageTest#footerLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.rubyonrails.qa.test.HomePageTest#logoDisplayTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.rubyonrails.qa.test.HomePageTest#validateTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ContributeToGit Test</h2><h3 id="m4">com.rubyonrails.qa.test.ContributeToGitPagesTest#clickOnContributeToGitTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.rubyonrails.qa.test.ContributeToGitPagesTest#validateTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>API Test</h2><h3 id="m6">com.rubyonrails.qa.test.APIpagesTest#checkBrokenLinksTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.rubyonrails.qa.test.APIpagesTest#clickOnAPITest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.rubyonrails.qa.test.APIpagesTest#clickOnAbstractControllerTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.rubyonrails.qa.test.APIpagesTest#clickOnActionControllerTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.rubyonrails.qa.test.APIpagesTest#searchTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Guide Test</h2><h3 id="m11">com.rubyonrails.qa.test.GuidePageTest#checkBrokenLinksTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.rubyonrails.qa.test.GuidePageTest#clickOnGuidesIndexTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.rubyonrails.qa.test.GuidePageTest#clickOnGuidesMenuTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.rubyonrails.qa.test.GuidePageTest#controllerTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.rubyonrails.qa.test.GuidePageTest#footerText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Blogs Test</h2><h3 id="m16">com.rubyonrails.qa.test.BlogsPageTest#clickOnBlogTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.rubyonrails.qa.test.BlogsPageTest#clickOnContributorsToRailsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.rubyonrails.qa.test.BlogsPageTest#clickOnThisWeekTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.rubyonrails.qa.test.BlogsPageTest#displayTableContentsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.rubyonrails.qa.test.BlogsPageTest#tableTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
